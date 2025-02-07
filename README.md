@@ -53,9 +53,9 @@ local utilitiesTab = Window:MakeTab({
     PremiumOnly = false
 });
 local Section = CRD:AddSection({Name = "🎄 Creator 🎄"});
-CRD:AddLabel("Dev - Scritp: CodeCraft / MatheuszinZK");
+CRD:AddLabel("Dev - Script: exilityHub");
 local function copyText()
-    local textToCopy = "https://discord.gg/25ms";
+    local textToCopy = "[https://discord.gg/QCGKqRMf]";
     setclipboard(textToCopy);
     OrionLib:MakeNotification({
         Name = "Texto Copiado",
